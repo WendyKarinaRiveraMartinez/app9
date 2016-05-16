@@ -32,7 +32,7 @@ $(document).ready(function(e) {
 	function Correcto(acceleration){
 		var element=document.getElementById('acelerometro');
 		
-		element.innerHTML='Aceleracion en X;'+acceleration.x+'<br/>'+
+		element.innerHTML='Aceleracion en X:'+acceleration.x+'<br/>'+
 		'Aceleracion en Y:'+acceleration.y+'<br/>'+
 		'Intervalo:'+acceleration.timestamp+'<br/>';
 	}
